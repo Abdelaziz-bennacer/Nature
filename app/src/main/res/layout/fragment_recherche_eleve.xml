@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/id_eleve_input"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="336dp"
+        android:hint="Entrez l'ID"
+        android:inputType="number"
+        android:paddingLeft="@dimen/default_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/nom_eleve_input"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:hint="entrez le NOM"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/id_eleve_input"
+        app:layout_constraintTop_toBottomOf="@+id/id_eleve_input" />
+
+    <Button
+        android:id="@+id/btn_valider_recherche_eleveI"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/valider"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/id_eleve_input"
+        app:layout_constraintTop_toTopOf="@+id/id_eleve_input"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginStart="15dp" />
+
+    <Button
+        android:id="@+id/btn_valider_recherche_eleveN"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/valider"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/nom_eleve_input"
+        app:layout_constraintStart_toEndOf="@+id/nom_eleve_input" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

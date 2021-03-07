@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_page"
+        android:title="Acceuil"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/eleves_page"
+        android:title="Eleves"
+        android:icon="@drawable/ic_eleves"/>
+
+    <item
+        android:id="@+id/adresse_page"
+        android:title="Adresses"
+        android:icon="@drawable/ic_adresses"/>
+
+    <item
+        android:id="@+id/salles_page"
+        android:title="Salles"
+        android:icon="@drawable/ic_salles"/>
+
+    <item
+        android:id="@+id/listes_page"
+        android:icon="@drawable/ic_list"
+        android:title="Listes" />
+</menu>

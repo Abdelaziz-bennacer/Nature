@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "577450744800",
+    "project_id": "notre-ecole-c2632",
+    "storage_bucket": "notre-ecole-c2632.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577450744800:android:f7f279a845a584a9fa6985",
+        "android_client_info": {
+          "package_name": "fr.abdel.nature"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577450744800-3025cmqm9hi36r9e58hmj4pd70k0qp6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQJgTnkf82at5SGw362fNHXxOjqnVv9AY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577450744800-3025cmqm9hi36r9e58hmj4pd70k0qp6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

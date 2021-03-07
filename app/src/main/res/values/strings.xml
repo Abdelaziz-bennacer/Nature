@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Notre Ecole</string>
+
+    <!-- Page d'acceuil-->
+    <string name="home_page_title">Gestionnaire de Base de Donnée</string>
+    <string name="home_page_information_section">Information</string>
+
+    <!--Page Eleves-->
+    <string name="eleves_page_title">Gestion des élèves</string>
+
+    <!-- Page Adresses-->
+    <string name="adresses_page_title">Gestion des adresses</string>
+
+    <!--Page Salles-->
+    <string name="salles_page_title">Gestion des salles</string>
+
+    <!--Boutons des Pages-->
+    <string name="btn_rehercher">Rechercher</string>
+    <string name="btn_afficher_liste">Afficher Liste</string>
+    <string name="btn_ajouter">Ajouter</string>
+    <string name="btn_modifier">Modifier</string>
+    <string name="btn_supprimer">Supprimer</string>
+
+    <!-- page fragment principal eleves-->
+    <string name="info_eleves">Information: Vous pouvez gérer la base de donnée "élèves"</string>
+    <string name="info_adresses">Information: Vous pouvez gérer la base de donnée "adresses"</string>
+    <string name="info_salles">Information: Vous pouvez gérer la base de donnée "salles"</string>
+    <string name="entrez_le_nom">Entrez le nom</string>
+    <string name="valider">Valider</string>
+    <string name="entrez_le_prenom">Entrez le prenom</string>
+    <string name="entrez_la_date_de_naissance_aaaa_mm_jj">Entrez la date de naissance( aaaa, mm, jj)</string>
+    <string name="entrez_l_age">Entrez l\'age</string>
+    <string name="entrez_l_adresse">Entrez l\'adresse</string>
+    <string name="entrez_le_numero">entrez_le_numero</string>
+    <string name="entrez_le_nom_de_rue">Entrez le nom de rue</string>
+    <string name="entrez_le_code_postal">Entrez le code postal</string>
+    <string name="ville">Ville</string>
+    <string name="pays">Pays</string>
+    <string name="entrez_le_code">entrez le code</string>
+    <string name="entrez_le_libelles">Entrez le libelles</string>
+</resources>

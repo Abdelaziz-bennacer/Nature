@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/adr_num_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/entrez_le_numero"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/adr_rue_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/entrez_le_nom_de_rue"
+        android:inputType="text"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <EditText
+        android:id="@+id/adr_code_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/entrez_le_code_postal"
+        android:inputType="number"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <EditText
+        android:id="@+id/adresse_ville_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/ville"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/adresse_pays_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/pays"
+        android:inputType="text"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <Button
+        android:id="@+id/btn_valider_add_adresse"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/valider" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/salle_code_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/entrez_le_code"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/salle_libelle_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/entrez_le_libelles"
+        android:inputType="text"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <Button
+        android:id="@+id/btn_valider_add_salle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/valider" />
+
+</LinearLayout>
